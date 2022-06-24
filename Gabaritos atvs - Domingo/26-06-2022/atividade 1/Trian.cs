@@ -2,10 +2,14 @@
 
 class Trian
 {
+    /*================ Váriaveis ================*/
 
     public float l1, l2, l3;
     private bool neg, eq, iso, es;
 
+    /*===========================================*/
+
+    /*========= Processamento de Dados ==========*/
 
     public void menNegacao()
     {
@@ -41,6 +45,10 @@ class Trian
         }
     }
 
+    /*===========================================*/
+
+    /*============= Saída de Dados ==============*/
+
     public void mensagem()
     {
 
@@ -62,5 +70,7 @@ class Trian
         }
 
     }
+
+    /*===========================================*/
 
 }
