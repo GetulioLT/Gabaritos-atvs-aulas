@@ -2,12 +2,16 @@
 
 class Calculo
 {
+    /*================ Váriaveis ================*/
 
     public float a, b, c;
     public double x0, x1;
     public float deltA;
     public bool dM0, d0, d1;
 
+    /*===========================================*/
+
+    /*========= Processamento de Dados ==========*/
 
     public float delta()
     {
@@ -49,6 +53,9 @@ class Calculo
 
     }
 
+    /*===========================================*/
+
+    /*============= Saída de Dados ==============*/
 
     public void mensagem()
     {
@@ -57,12 +64,12 @@ class Calculo
         if (d1 == true)
         {
             Console.WriteLine($"{a}x² + {b}x + {c}");
-            Console.WriteLine($"D = {b}² * 4 * {a} * {c}\n");
+            Console.WriteLine($"D = {b}² * 4 * {a} * {c} \n");
 
-            Console.WriteLine($"Como o delta ficou igual a {deltA} o resultado terá duas raizes.");
+            Console.WriteLine($"Como o delta ficou igual a {deltA} o resultado terá duas raizes. \n");
 
-            Console.WriteLine($"x = -({b}) ± √D\n" +
-                              $"     2 * {a}\n");
+            Console.WriteLine($"x = -({b}) ± √D \n"+
+                              $"     2 * {a} \n");
 
             Console.WriteLine($"calculo ficou com o resultado para x1: {x0.ToString("0.00")} e x2: {x1.ToString("0.00")}.");
         }
@@ -71,21 +78,23 @@ class Calculo
             Console.WriteLine($"{a}x² + {b}x + {c}");
             Console.WriteLine($"D = {b}² * 4 * {a} * {c}\n");
 
-            Console.WriteLine($"Como o delta ficou igual a {deltA} o resultado terá apenas uma raiz.");
+            Console.WriteLine($"Como o delta ficou igual a {deltA} o resultado terá apenas uma raiz.\n");
 
-            Console.WriteLine($"x = -({b}) ± √D\n" +
-                              $"     2 * {a}\n");
+            Console.WriteLine($"x = -({b}) ± √D \n" +
+                              $"     2 * {a} \n");
 
             Console.WriteLine($"calculo ficou com o resultado para x1: {x0.ToString("0.00")}.");
         }
         else if(dM0 == true)
         {
             Console.WriteLine($"{a}x² + {b}x + {c}");
-            Console.WriteLine($"D = {b}² * 4 * {a} * {c}");
+            Console.WriteLine($"D = {b}² * 4 * {a} * {c} \n");
 
             Console.WriteLine($"Como o delta ficou igual a {deltA} terá resultado com raizes reais");
         }
         
     }
+
+    /*===========================================*/
 
 }

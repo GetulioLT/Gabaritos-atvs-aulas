@@ -24,7 +24,13 @@ namespace ConsoleApp1
             Console.WriteLine("Que tal fazemos um programa para fazer um calculo com um " +
                 "equação do 2 grau?");
 
+            /*================ Váriaveis ================*/
+
             Calculo calculo = new Calculo();
+
+            /*===========================================*/
+
+            /*============ Entrada de Dados =============*/
 
             Console.WriteLine("Prmeiramente nós passe os 3 valores referentes as icognitas a, b e c" +
                 "\nDigite o valor de a:");
@@ -42,13 +48,19 @@ namespace ConsoleApp1
             Console.WriteLine("Digite c:");
             calculo.c = float.Parse(Console.ReadLine());
 
+            /*===========================================*/
+
+            /*========= Processamento de Dados ==========*/
+
             calculo.delta();
-            
 
-            
+            /*===========================================*/
 
+            /*============= Saída de Dados ==============*/
 
             calculo.mensagem();
+
+            /*===========================================*/
 
             Console.ReadLine();
         }
