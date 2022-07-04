@@ -1,7 +1,12 @@
 ﻿using System;
 
+//Herança da Classe Figura
+
 class Quadrado : Figura
 {
+
+    /*================== Métodos =================*/
+
     public static double Calculo()
     {
         Console.WriteLine("Digite o valor do lado:");
@@ -9,4 +14,7 @@ class Quadrado : Figura
 
         return Math.Pow(bas, 2);
     }
+
+    /*============================================*/
+
 }

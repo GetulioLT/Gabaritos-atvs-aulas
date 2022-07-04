@@ -1,7 +1,11 @@
 ﻿using System;
 
+//Herança da Classe Figura
+
 class Retangulo : Figura
 {
+
+    /*================== Métodos =================*/
 
     public static double Calculo()
     {
@@ -13,5 +17,7 @@ class Retangulo : Figura
 
         return bas * alt;
     }
+
+    /*============================================*/
 
 }

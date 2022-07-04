@@ -1,7 +1,10 @@
 ﻿using System;
 
+//Herança da Classe Figura
 class Triagulo : Figura
 {
+
+    /*================== Métodos =================*/
 
     public static double Calculo()
     {
@@ -14,5 +17,7 @@ class Triagulo : Figura
 
         return bas * alt / 2;
     }
+
+    /*============================================*/
 
 }
