@@ -1,14 +1,22 @@
 ﻿using System;
 
+/*====================== ======================*/
 
 class Figura
 {
+    /*================ Atributos =================*/
 
     public static double bas, alt, dia;
     int escolha;
 
+    /*============================================*/
+
+    /*================== Métodos =================*/
+
     public void Iniciar()
     {
+
+        //Laço de repetição
         do
         {
 
@@ -29,7 +37,7 @@ class Figura
             {
                 case 1:
 
-                    Console.WriteLine($"\nValor do Quadrado é:{Quadrado.Calculo()}");
+                    Console.WriteLine($"\nValor do Quadrado é: {Quadrado.Calculo()}");
                     Console.ReadLine();
                     Console.Clear();
 
@@ -38,7 +46,7 @@ class Figura
 
                 case 2:
 
-                    Console.WriteLine($"\nValor do Retangulo é:{Retangulo.Calculo()}");
+                    Console.WriteLine($"\nValor do Retangulo é: {Retangulo.Calculo()}");
                     Console.ReadLine();
                     Console.Clear();
 
@@ -47,7 +55,7 @@ class Figura
 
                 case 3:
 
-                    Console.WriteLine($"\nValor do Triangulo é:{Triagulo.Calculo()}");
+                    Console.WriteLine($"\nValor do Triangulo é: {Triagulo.Calculo()}");
                     Console.ReadLine();
                     Console.Clear();
 
@@ -56,7 +64,7 @@ class Figura
 
                 case 4:
 
-                    Console.WriteLine($"\nValor do Circulo é:{(Circulo.Calculo()).ToString("0.00")}");
+                    Console.WriteLine($"\nValor do Circulo é: {(Circulo.Calculo()).ToString("0.00")}");
                     Console.ReadLine();
                     Console.Clear();
 
@@ -79,5 +87,7 @@ class Figura
         } while (escolha != 0);
 
     }
+
+    /*============================================*/
 
 }
