@@ -1,7 +1,5 @@
 ﻿using System;
 
-/*====================== ======================*/
-
 class Figura
 {
     /*================ Atributos =================*/
@@ -32,7 +30,7 @@ class Figura
 
             escolha = int.Parse(Console.ReadLine());
 
-
+            //Condicional para a tomada decisão
             switch (escolha)
             {
                 case 1:

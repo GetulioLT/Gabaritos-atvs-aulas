@@ -14,11 +14,20 @@ namespace Avaliação
     {
         static void Main(string[] args)
         {
+            
+            /*================= Variaveis =================*/
+
             string operacao;
+
+            /*============================================*/
+
+            /*============= Entrada de dados =============*/
 
             Console.WriteLine("Calculadora de operações basicas: soma, subtração, multiplicação e divisão\n" +
                 "Qual a operação desejada?");
             operacao = Console.ReadLine();
+
+            /*=============================================*/
 
             //Intancia do objeto da classe Calculadora
             Calculadora calculadora = new Calculadora(operacao);

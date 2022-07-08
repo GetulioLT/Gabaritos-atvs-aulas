@@ -1,7 +1,6 @@
 ﻿using System;
 
-//Herança da Classe Figura
-
+//Herança da classe Figura, copiado todos os atributos dessa classe
 class Quadrado : Figura
 {
 

@@ -1,11 +1,13 @@
 ﻿using System;
 
-//Herança da Classe Figura
+//Herança da classe Figura, copiado todos os atributos dessa classe
 class Triagulo : Figura
 {
 
     /*================== Métodos =================*/
 
+    /*Método estatico, não tem a necessidade de ter o objeto 
+     *instanciado para ser iniciado*/
     public static double Calculo()
     {
         Console.WriteLine("Digite o valor da base:");

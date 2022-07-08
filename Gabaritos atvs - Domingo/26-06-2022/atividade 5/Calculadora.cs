@@ -9,12 +9,18 @@ using System;
 
 class Calculadora
 {
+
+    /*================ Atributos =================*/
+
     string operacao;
     float n1, n2;
 
+    /*=============================================*/
 
     /*Método construtor, não precisa ser iniciado, pois inicia junto com a
     instancia do objeto leva o nome da classe*/
+    /*============= Método construtor =============*/
+
     public Calculadora(string operacao)
     {
         this.operacao = operacao;
@@ -69,4 +75,7 @@ class Calculadora
 
         }
     }
+
+    /*=============================================*/
+
 }
