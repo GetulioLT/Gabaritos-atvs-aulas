@@ -1,1 +1,2 @@
-# Gabaritos das atividades mostradas durante as aulas da turma de metaverso
+# Gabaritos Atividades Dos Slides de Metaverso
+
