@@ -3,8 +3,6 @@
 class Jogador
 {
 
-    /*====================== ======================*/
-
     /*================ Atributos =================*/
 
     string nome, posicao, nacionalidade;
