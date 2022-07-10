@@ -9,6 +9,8 @@ class Jogador
     int anoDeNascimento;
     float altura, peso;
 
+    /*============================================*/
+
     /*======== Encapsulamento de informação ======*/
     //Utilizando apenas o get para que usuario apenas indique o
     //dado sem poder tem o retorno dele.
